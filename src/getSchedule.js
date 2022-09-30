@@ -61,6 +61,4 @@ function getSchedule(scheduleTarget) {
   return scheduleObj;
 }
 
-const teste = findDay('Tuesday');
-console.log(teste);
 module.exports = getSchedule;
