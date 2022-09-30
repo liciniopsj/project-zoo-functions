@@ -1,7 +1,7 @@
 const data = require('../data/zoo_data');
 
 const { species } = data;
-const findAnimal = (animal) => species.find((specie) => specie.name === animal);
+const findAnimal = (animal) => species.find((specimen) => specimen.name === animal);
 
 function getAnimalsOlderThan(animal, age) {
   const match = findAnimal(animal);

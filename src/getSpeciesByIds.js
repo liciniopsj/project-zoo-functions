@@ -1,7 +1,7 @@
 const data = require('../data/zoo_data');
 
 const { species } = data;
-const findId = (id) => species.find((specie) => specie.id === id);
+const findId = (id) => species.find((specimen) => specimen.id === id);
 
 function getSpeciesByIds(...ids) {
   const matchedIdArray = [];
